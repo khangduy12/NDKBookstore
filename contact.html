@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewpoint" content="width=device-width, initial scale=1.0">
+        <title>Contact Us</title>
+        <link rel="icon" type="image/x-icon" href="image/logo.png">
+        
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    </head>
+    <body>
+      <nav>
+                <ul class="storeName">
+                    <a href="index.html" class="logo"><img src="image/logo.png" alt=""></a>
+                    <a href="index.html" class="siteName">NDK BookStore</a>
+                </ul>
+                <ul class="menu">
+                  <li><a href="index.html" class="active">Home</a></li>
+                  <li><a href="#">about us</a></li>
+                  <li><a href="fiction.html">fiction</a></li>
+                  <li><a href="children.html">children</a></li>
+                  <li><a href="contact.html">contact</a></li>
+              </ul> 
+      </nav>
+      <div class="contact">
+            <div style="text-align:center">
+              <h2>Contact Us</h2>
+            </div>
+            <div class="row1">
+              <div class="column">
+                <form action="/action_page.php">
+                  <label for="choice">How can we help you?</label>
+                  <select id="choice" name="choice">
+                    <option value="sell">I want to sell books</option>
+                    <option value="Buy">I want to buy books</option>
+                  </select>
+                  <label for="name">What is your name?</label>
+                  <input type="text" id="name" name="fullname" placeholder="Enter your full name">
+                  <label for="email">What is your email?</label>
+                  <input type="email" id="email" name="email" placeholder="Enter your email">
+                  <label for="phone">What is your phone number?</label>
+                  <input type="phone" id="phone" name="phone" placeholder="Enter your phone">
+                  <label for="contactpref">Contact preference</label><br>
+                  <label class="contactpref">By email
+                    <input type="checkbox" checked="checked">
+                    <span class="checkmark"></span>
+                  </label>
+                  <label class="contactpref">By phone
+                    <input type="checkbox">
+                    <span class="checkmark"></span>
+                  </label>
+                  <label for="newsletter">Receive weekly newsletter</label><br>
+                  <label class="newsletter">Yes
+                    <input type="radio" checked="checked1" name="radio">
+                    <span class="checkmark1"></span>
+                  </label>
+                  <label class="newsletter">No
+                    <input type="radio" name="radio">
+                    <span class="checkmark1"></span>
+                  </label>
+                  <label for="subject">Anything else?</label>
+                  <textarea id="subject" name="subject" placeholder="Write something.." style="height:170px"></textarea>
+                  <input type="submit" value="Submit">
+                  <input type="reset" value="Reset">
+                </form>
+              </div>
+              <div class="column">
+                <img src="image/background.png">
+              </div>
+            </div>
+      </div>
+      <footer class="footer">
+          <div class="container">
+             <div class="row">
+               <div class="footer-col">
+                 <h4>company</h4>
+                 <ul>
+                  <li><a href="index.html">home</a></li>
+                  <li><a href="#">about us</a></li>
+                  <li><a href="#">our featured</a></li>
+                  <li><a href="#">privacy policy</a></li>
+                  <li><a href="#">Condition of Use</a></li>
+                </ul>
+               </div>
+               <div class="footer-col">
+                 <h4>get help</h4>
+                 <ul>
+                  <li><a href="contact.html">contact us</a></li>
+                  <li><a href="#">shipping</a></li>
+                  <li><a href="#">returns</a></li>
+                  <li><a href="#">order status</a></li>
+                  <li><a href="#">payment options</a></li>
+                </ul>
+               </div>
+               <div class="footer-col">
+                 <h4>Bookstore</h4>
+                 <ul>
+                  <li><a href="fiction.html">fiction</a></li>
+                  <li><a href="#">non-fiction</a></li>
+                  <li><a href="children.html">children</a></li>
+                  <li><a href="#">textbooks</a></li>
+                  <li><a href="#">poetry</a></li>
+                  <li><a href="#">folktale</a></li>
+                </ul>
+               </div>
+               <div class="footer-col">
+                 <h4>follow us</h4>
+                 <div class="social-links">
+                   <a href="#"><i class="fab fa-facebook-f"></i></a>
+                   <a href="#"><i class="fab fa-twitter"></i></a>
+                   <a href="#"><i class="fab fa-instagram"></i></a>
+                   <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                </div>
+              </div>
+             </div>
+            <p>&copy;2023 The NDK Company Inc.</p>
+      </footer>
+</body>
+</html>
